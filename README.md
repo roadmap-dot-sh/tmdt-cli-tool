@@ -29,3 +29,41 @@ There are some considerations to keep in mind:
 - Handle errors gracefully, such as API failures or network issues.
 - Use a programming language of your choice to build this project.
 - Make sure to include a README file with instructions on how to run the application and any other relevant information.
+
+## Run Application
+
+### Prerequisites
+
+- Java 11 or higher
+- Maven 3.6 or higher
+
+### Build from source
+
+#### 1. Clone repository
+
+```bash
+git clone https://github.com/roadmap-dot-sh/tmdt-cli-tool.git
+cd tmdt-cli-tool
+```
+
+#### 2. Build the project
+
+```bash
+mvn clean package
+```
+
+#### 3. Run the tool
+
+Example:
+
+```bash
+java -jar target/tmdt-cli-tool-1.0-SNAPSHOT.jar --type "popular"
+```
+
+Or in terminal (only CMD/PowerShell) run with this command:
+
+Example:
+
+```bash
+./tmdb-app.bat --type "popular" 
+```
