@@ -59,11 +59,3 @@ Example:
 ```bash
 java -jar target/tmdt-cli-tool-1.0-SNAPSHOT.jar --type "popular"
 ```
-
-Or in terminal (only CMD/PowerShell) run with this command:
-
-Example:
-
-```bash
-./tmdb-app.bat --type "popular" 
-```
